@@ -98,6 +98,13 @@
           font-weight: 500;
           font-style: normal;
       }
+      @font-face {
+          font-family: 'Avenir-Book';
+          src: url('AvenirLTStd-Book.woff2') format('woff2'),
+              url('AvenirLTStd-Book.woff') format('woff');
+          font-weight: normal;
+          font-style: normal;
+      }
       .story-header, .sections h1, .sections h2, .sections h3, .sections h4, .sections h5, .sections h6, .sections, .section-layout-credits{
         font-family: 'Avenir', 'open_sans',sans-serif !important;
       }
@@ -156,6 +163,9 @@
       }
       .block{
         font-size: 25px !important;
+        font-family: 'Avenir-Book', 'open_sans',sans-serif !important;
+      }
+      .block > span {
         font-family: 'Avenir-Medium', 'open_sans',sans-serif !important;
       }
       /* .imm-panel .blocks{
